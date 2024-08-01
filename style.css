@@ -1,0 +1,99 @@
+.main-sec {
+  min-height: 100vh;
+  background-image: url("./assets/First\ section.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.font-size {
+  font-size: 70px;
+  color: #fff;
+  text-shadow: 2px 0px 7px #07bff0, -1px 0px 7px #07bff0, 0px 4px 7px #07bff0;
+}
+
+.box-shodow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.text-sec {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.price1 {
+  color: #b6cdaa;
+}
+.price2 {
+  color: #8bb980;
+}
+
+.card-sec {
+  background-color: #f3f4f6;
+  padding-bottom: 40px;
+}
+
+.card {
+  background-color: #f3f4f6;
+  margin-bottom: 20px;
+}
+
+.fa-arrow-right,
+.fa-arrow-left {
+  font-size: 20px;
+  color: #05cdf7;
+  cursor: pointer;
+}
+.service-sec {
+  background-color: #f3f4f6;
+}
+.my-card-top {
+  position: relative;
+}
+
+.my-card-h1 {
+  font-size: 80px;
+}
+.my-card-text {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+.girl-sec {
+  height: 100vh;
+  background: url("./assets/quino-al-RAd1nIVB3_Y-unsplash.jpg"), #00000054;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.footer-bg {
+  margin: 0 !important;
+  background-color: #fff;
+  font-weight: 600;
+  width: 100%;
+  position: relative;
+  top: 100%;
+  bottom: 0%;
+}
+
+.footer-hadings{
+    margin: 0 ;
+    margin-top: 20px ;
+    font-weight: 600;
+}
